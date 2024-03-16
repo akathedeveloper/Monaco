@@ -1,0 +1,20 @@
+/* App.css */
+
+.custom-editor {
+  position: relative;
+}
+
+.placeholder {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+  color: #aaa; /* Placeholder text color */
+  pointer-events: none; /* Allow interaction with the underlying editor */
+}
+
+.editor {
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  margin-left: 20px;
+}
